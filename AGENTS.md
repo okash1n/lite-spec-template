@@ -4,18 +4,18 @@
 
 ## 基本ルール
 
-- 仕様は `SPEC.md` を最優先する
-- 仕様に影響する変更は `SPEC.md` を更新する
-- 重要な技術判断は `docs/adr/` に記録する
+- 仕様は `.litespec/SPEC.md` を最優先する
+- 仕様に影響する変更は `.litespec/SPEC.md` を更新する
+- 重要な技術判断は `.litespec/adr/` に記録する
 - 不明点や矛盾があれば作業前に質問する
 
 ## 作業フロー
 
-1. `SPEC.md` を読む
+1. `.litespec/SPEC.md` を読む
 2. 仕様に不足があれば追記/提案する
 3. 実装する
 4. テスト/検証する
-5. 変更点を `SPEC.md` / `docs/adr/` に反映する
+5. 変更点を `.litespec/SPEC.md` / `.litespec/adr/` に反映する
 
 ## ドキュメント方針
 
