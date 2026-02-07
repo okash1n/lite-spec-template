@@ -1,15 +1,22 @@
-# lite-spec-template
+# はじめに
 
-`AGENTS.md` はルートに置き、仕様管理ファイルは `.litespec/` にまとめるテンプレートです。
-
-## 構成
-
-- `AGENTS.md`
-- `.litespec/README.md`
-- `.litespec/SPEC.md`
-- `.litespec/adr/0001-template.md`
+このリポジトリは軽量な仕様駆動開発を行うためのテンプレートリポジトリです
 
 ## 使い方
+`.litespec/README.md` を読んでください。
 
-1. このリポジトリをテンプレートとして新規プロジェクトを作成する
-2. 既存プロジェクトに `AGENTS.md` と `.litespec/` をコピーする
+## おすすめの使い方（概要）
+
+### 既存仕様や関連ドキュメントがある場合
+
+1. 既存ドキュメントを LLM に渡す
+2. `AGENTS.md` を読ませ、`.litespec/SPEC.md` と `.litespec/specs/` へ反映させる
+3. 不足項目は TODO として残し、実装前に埋める
+
+### まだ仕様が固まっていない場合
+
+1. `AGENTS.md` を前提に、一問一答で初期仕様を固めるよう LLM に依頼する
+2. 回答を「確定事項 / 未確定事項」に分ける
+3. `SPEC.md`（全体）と `specs/`（機能詳細）に整理して反映する
+
+詳細な手順とプロンプト例は `.litespec/README.md` を参照してください。
