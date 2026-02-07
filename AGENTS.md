@@ -10,21 +10,21 @@
 
 ## 基本ルール
 
-- 仕様の入口は `.litespec/SPEC.md` を最優先する
-- `.litespec/SPEC.md` は概要とリンクを管理する（詳細は分割）
-- 詳細仕様は `.litespec/specs/` に機能単位で記述する
-- 仕様に影響する変更は `.litespec/SPEC.md` と関連する詳細仕様を更新する
-- 重要な技術判断は `.litespec/adr/` に記録する
+- 仕様の入口は [`.litespec/SPEC.md`](.litespec/SPEC.md) を最優先する
+- [`.litespec/SPEC.md`](.litespec/SPEC.md) は概要とリンクを管理する（詳細は分割）
+- 詳細仕様は [`.litespec/specs/`](.litespec/specs/) に機能単位で記述する
+- 仕様に影響する変更は [`.litespec/SPEC.md`](.litespec/SPEC.md) と関連する詳細仕様を更新する
+- 重要な技術判断は [`.litespec/adr/`](.litespec/adr/) に記録する
 - 不明点や矛盾があれば作業前に質問する
 
 ## 作業フロー
 
-1. `.litespec/SPEC.md` を読む
-2. 対象機能の詳細仕様（`.litespec/specs/`）を読む
+1. [`.litespec/SPEC.md`](.litespec/SPEC.md) を読む
+2. 対象機能の詳細仕様（[`.litespec/specs/`](.litespec/specs/)）を読む
 3. 仕様に不足があれば追記/提案する
 4. 実装する
 5. テスト/検証する
-6. 変更点を `.litespec/SPEC.md` / `.litespec/specs/` / `.litespec/adr/` に反映する
+6. 変更点を [`.litespec/SPEC.md`](.litespec/SPEC.md) / [`.litespec/specs/`](.litespec/specs/) / [`.litespec/adr/`](.litespec/adr/) に反映する
 
 ## ドキュメント方針
 
